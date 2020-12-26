@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/insert_one"
+        android:title="Insert TAB"
+        app:showAsAction="never"/>
+    <item android:id="@+id/insert_two"
+        android:title="Insert §"
+        app:showAsAction="never"/>
+    <item android:id="@+id/insert_three"
+        android:title="Insert •"
+        app:showAsAction="never"/>
+    <item android:id="@+id/insert_four"
+        android:title="Insert »"
+        app:showAsAction="never"/>
+
+</menu>

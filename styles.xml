@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- User added. -->
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/consolas</item>
+    </style>
+
+    <style name="CustomDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/AlertTitle</item>
+    </style>
+
+    <style name="AlertTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="font01" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">15.8dp</item>
+    </style>
+
+    <style name="font_header" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/navbar_view_note"/>
+
+    <ScrollView
+        android:id="@+id/view_mode_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:visibility="visible">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <TextView
+                android:id="@+id/note_view_space"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="18dp"
+                android:layout_marginVertical="14dp"
+                android:paddingStart="4dp"
+                android:paddingEnd="40dp"
+                android:paddingBottom="80dp"/>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/edit_mode_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:visibility="gone"
+        android:background="@color/grey">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <EditText
+                android:id="@+id/note_edit_space"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="18dp"
+                android:layout_marginVertical="14dp"
+                android:gravity="start"
+                android:paddingStart="4dp"
+                android:paddingEnd="40dp"
+                android:paddingBottom="80dp"
+                android:inputType="textMultiLine"
+                android:background="@android:color/transparent"/>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+</LinearLayout>

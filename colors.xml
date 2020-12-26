@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7D26CD</color>
+    <color name="colorPrimaryDark">#989191</color>
+    <color name="colorAccent">#ED4A81</color>
+
+    <color name="white">#FBFBFB</color>
+    <color name="black">#000000</color>
+    <color name="red">#C62828</color>
+    <color name="grey">#DDDDDD</color>
+    <color name="purple">#7D26CD</color>
+    <color name="subject_item_background_color">#FFC107</color>
+    <color name="subject_item_background_color_active">#85AFB6</color>
+    <color name="note_item_background_color">#FFC107</color>
+    <color name="note_item_background_color_active">#FFA726</color>
+    <color name="hint_color">#6B89AA</color>
+    <color name="note_title_color">#FFC107</color>
+    <color name="text_input_bar_color">#EF6C00</color>
+</resources>
